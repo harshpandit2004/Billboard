@@ -1,0 +1,13 @@
+.d-flex {
+    display: flex!important;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
