@@ -1,3 +1,24 @@
+Information about the project:
+A SPA website that lets anyone post a message on a billboard-like structure.
+
+the website will have a 'post message' option and after that, all the post will be filtered chronologically.
+there will be anonymous posting not because it makes it privacy-free but because it will be easier to build.
+
+the messages posted will have a 'messageBody' attribute, 'messageTitle' attribute, and a 'postedAt' attribute. the body and title will be hosted on the site and the 'postedAt' will help in filtering the posts. these attributes will be hosted on a currently undecided database. NodeJS will be used for converting the database schema to an API. that API will be bombarded with the fetch calls.
+
+the website will be hosted on a currently undecided platform
+
+Tools:
+Frontend - React (+JavaScript, HTML)
+Styling - Bootstrap (modded)
+Database - undecided (probably a NoSQL)
+Database to API - NodeJS
+Hosting - undecided (probably FireBase)
+
+Additional notes:
+after the website is completed and deployed, create an android version of the website using react-native and/or android studio.
+the app would have the same styling and functionality. it would also trigger the same database && API for backend services.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +89,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Billboard
