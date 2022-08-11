@@ -1,6 +1,6 @@
 # Currently being hosted [at](https://communist-billboard.netlify.app/)
 
-#Information:
+# Information:
 
 A place where anyone can post notes for the world to see. 
 Primarily a full-stack web app with custom node / express backend.
