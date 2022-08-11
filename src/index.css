@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+}
+
+.AddBillsWalaDiv {
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #36393f;
+  box-shadow: 0px 0px 20px #ffffff66;
+  color: #ffffff;
+  width: 50%;
+  padding: 2rem 0rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 4rem;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addbill-title {
+  background-color: #e4e4e4bb;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 1rem;
+  border: none;
+}
+.addbill-title:hover {
+  transition-delay: 0.5s;
+  background-color: #e4e4e4;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 15px 20px #00000066;
+}
+
+.addbill-body {
+  background-color: #e4e4e4bb;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: none;
+  border: none;
+}
+.addbill-body:hover {
+  transition-delay: 0.5s;
+  background-color: #e4e4e4;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 15px 20px #00000066;
+}
+
+.addbillhandler {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #c0c0c0;
+  box-shadow: 0px 15px 20px #ffffff66;
+  border: none;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 1rem;
+}
+.addbillhandler:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 15px 20px #ffffff66;
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
+
+.billist {
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #36393f;
+  box-shadow: 0px 0px 15px #ffffff66;
+  color: #ffffff;
+  width: 75%;
+  padding: 2rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 2rem;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.individual-bill {
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #282c34;
+  box-shadow: 0px 0px 10px #ffffff66 inset;
+  color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  margin: 0% 5% 0% 5%;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+}
+
+.bill-title {
+  font-size: 2rem;
+  margin: 0px;
+}
+.bill-body {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .AddBillsWalaDiv {
+    width: 25rem;
+  }
+  .billist {
+    width: 20rem;
+  }
+  .bill-title {
+    font-size: 1rem;
+    margin: 0px;
+  }
+  .bill-body {
+    font-size: .5rem;
+    margin: 0px;
+  }
+}
