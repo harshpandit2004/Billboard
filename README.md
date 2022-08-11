@@ -1,3 +1,12 @@
+# Currently being hosted [at](https://communist-billboard.netlify.app/)
+
+#Information:
+
+A place where anyone can post notes for the world to see. 
+Primarily a full-stack web app with custom node / express backend.
+
+functionality for user authentication and deleting bills from the frontend has not been implemented just yet.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
