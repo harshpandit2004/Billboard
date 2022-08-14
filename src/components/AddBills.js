@@ -22,15 +22,17 @@ export default function AddBills(props) {
         console.log(data);
       });
     //updating the bill list
-    fetch("https://mysterious-falls-74387.herokuapp.com/fetchbills", {
-      method: "get",
-      mode: "cors",
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        data = data.reverse();
-        props.setBillist(data);
-      });
+    setTimeout(() => {
+      fetch("https://mysterious-falls-74387.herokuapp.com/fetchbills", {
+        method: "get",
+        mode: "cors",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          data = data.reverse();
+          props.setBillist(data);
+        });
+    }, 2000);
 
     //clearing out them textboxes
     document.getElementById("billtitle").value = "";
