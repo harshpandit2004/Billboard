@@ -6,7 +6,7 @@ export default function AddBills(props) {
 
   const addBillHandler = () => {
     //adding shit to the bill list
-    fetch("https://mysterious-falls-74387.herokuapp.com/addbills", {
+    fetch("https://poised-bear-purse.cyclic.app/addbills", {
       method: "post",
       mode: "cors",
       headers: {
@@ -23,7 +23,7 @@ export default function AddBills(props) {
       });
     //updating the bill list
     setTimeout(() => {
-      fetch("https://mysterious-falls-74387.herokuapp.com/fetchbills", {
+      fetch("https://poised-bear-purse.cyclic.app/fetchbills", {
         method: "get",
         mode: "cors",
       })

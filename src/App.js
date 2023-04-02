@@ -6,7 +6,7 @@ function App() {
   const [billist, setBillist] = useState([]);
 
   useEffect(() => {
-    fetch("https://mysterious-falls-74387.herokuapp.com/fetchbills", {
+    fetch("https://poised-bear-purse.cyclic.app/fetchbills", {
       method: "get",
       mode: "cors",
     })
