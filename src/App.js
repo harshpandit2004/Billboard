@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import AddBills from "./components/AddBills";
 import BillList from "./components/BillList";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [billist, setBillist] = useState([]);
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
         <h1 className="Heading">Communist Billboard</h1>
         <AddBills setBillist={setBillist} />
